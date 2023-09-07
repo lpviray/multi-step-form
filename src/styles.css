@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background: #745e5e;
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------- LEFT CONTENT -------------------- */
+
+.content {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 8%;
+}
+
+.header {
+  width: 74%;
+  color: white;
+  font-weight: 575;
+  margin-top: -10%;
+  text-align: left;
+}
+
+.button-input {
+  padding: 8px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #806c6c;
+  border: none;
+  cursor: pointer;
+}
+
+.button-input:hover {
+  opacity: 0.8;
+  transition: 0.5s ease all;
+}
+
+/* STAGE 1 */
+.email-container {
+  width: 80%;
+}
+
+.email-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #a19393;
+  padding: 90px 0 15px 5px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 16px;
+}
+
+.email-input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.email-input:focus {
+  color: white;
+}
+
+.email-input:focus::placeholder {
+  color: transparent;
+}
+
+.error-email {
+  color: yellow;
+  margin-bottom: 30px;
+}
+
+/* STAGE 2 */
+.money {
+  padding-bottom: 100px;
+}
+
+.budget {
+  display: flex;
+  justify-content: space-between;
+  margin: -30px 0 80px 0;
+}
+
+.budget-input {
+  margin-right: 15px;
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #806c6c;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.active {
+  background: white;
+  color: #806c6c;
+}
+
+.error-budget {
+  color: yellow;
+  margin: -40px 0 30px 0;
+}
+
+/* STAGE 3 */
+.addition {
+  padding-top: 50px;
+}
+
+.feedback-container {
+  width: 80%;
+}
+
+.feedback-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #a19393;
+  padding: 40px 0 15px 5px;
+  margin-bottom: 60px;
+  color: white;
+  font-size: 16px;
+}
+
+/* STAGE 4 */
+.thanks {
+  margin-bottom: 100px;
+}
+
+/* -------------------- RIGHT CONTENT -------------------- */
+
+.right-image {
+  height: 100vh;
+  width: 50%;
+}
+
+@media only screen and (max-width: 720px) {
+  .content {
+    width: 90%;
+  }
+
+  .content > h1 {
+    width: 90%;
+  }
+
+  .right-image {
+    display: none;
+  }
+}
