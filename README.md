@@ -1,5 +1,5 @@
 # multi-step-form
-This is an interactive inquiry form composed of 4 stages. The goal of this project was to demonstrate the ability to make use of states and props within the React library to develop a fully functional submission form. Users of this web application will be able to send their email, budget constraints, and miscellaneous feedback for an online service to a theoretical server.<br>
+This is an interactive inquiry form composed of 4 stages. The goal of this project was to demonstrate the ability to make use of state hooks and props within the React library to develop a fully functional submission form. Users of this web application will be able to send their email, budget constraints, and miscellaneous feedback for an online service to a theoretical server.<br>
 
 The live webpage can be viewed at: [https://codesandbox.io/p/github/lpviray/multi-step-form/main](https://codesandbox.io/p/github/lpviray/multi-step-form/main)
 
